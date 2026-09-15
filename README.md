@@ -1,28 +1,21 @@
 # GardenGuide Australia
 
-A mobile-first Australian vegetable gardening companion.
+Mobile-first Australian gardening companion.
 
-## Current build
+## Built so far
 
-- Searchable planting guide with 18 starter crops
-- Sowing depth, spacing, harvest, sun and watering information
-- My Garden with add/remove and device-local saving
-- Plant Doctor camera/photo workflow
-- Garden Calendar starter dashboard
-- Browser location permission groundwork
-- Installable PWA manifest
-- Offline caching/service worker
-- Responsive phone and desktop interface
-- Structured crop data ready for expansion
+- Searchable crop planting guide with 18 starter crops
+- Sowing depth, spacing, harvest, sunlight and watering guidance
+- Australian climate-zone selector
+- “What can I plant now?” seasonal screen
+- My Garden local saving
+- Plant Doctor photo workflow
+- Common pest/problem quick guide
+- Soil type and improvement guide
+- Seasonal garden jobs
+- Regional planting calendar data
+- Offline PWA support
 
-## Building next
+## Next
 
-- Australian climate-zone and locality planting recommendations
-- Detailed month-by-month calendars by region
-- Weather, frost and rain guidance
-- Plant photo diagnosis service
-- Larger Australian crop/herb/fruit database
-- Planting dates, expected harvest dates and reminders
-- Garden beds and crop rotation
-
-The current prototype runs from `index.html` and can be deployed as a static web app.
+Expand regional calendars, map location to climate zone, add weather/frost/rain, planting and harvest tracking, garden beds/crop rotation, reminders and Plant Doctor image analysis.
