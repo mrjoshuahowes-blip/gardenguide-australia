@@ -1,0 +1,7 @@
+[
+ {"id":"cool","name":"Cool / Temperate","examples":"Canberra, inland NSW highlands, Tasmania, Victorian high country","notes":"Shorter warm season and meaningful frost risk. Warm-season crops generally wait until frost danger passes."},
+ {"id":"temperate","name":"Temperate","examples":"Sydney, coastal NSW, Melbourne, Adelaide, Perth","notes":"Broad planting window with cool-season and warm-season crops both possible across the year."},
+ {"id":"subtropical","name":"Subtropical","examples":"Brisbane, northern NSW, southeast Queensland","notes":"Long warm season; many crops perform best outside the hottest and wettest periods."},
+ {"id":"tropical","name":"Tropical","examples":"Darwin, far north Queensland","notes":"Planting is strongly influenced by wet and dry seasons rather than frost."},
+ {"id":"arid","name":"Arid / Semi-arid","examples":"Central and inland Australia","notes":"Heat, water availability and extreme temperature swings are major planting constraints."}
+]
