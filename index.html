@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#2f6b3b" />
+  <title>GardenGuide Australia</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Australian growing companion</p>
+      <h1>GardenGuide Australia</h1>
+    </div>
+    <button id="locationBtn" class="secondary">Set my location</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Grow with your local conditions</p>
+        <h2>Know what to plant, when to plant it, and how deep to sow.</h2>
+        <p>Start with a crop below or use Plant Doctor to identify a plant problem from a photo.</p>
+      </div>
+      <div class="hero-card">
+        <span>Current region</span>
+        <strong id="regionLabel">Australia</strong>
+        <small id="seasonLabel"></small>
+      </div>
+    </section>
+
+    <nav class="tabs" aria-label="GardenGuide sections">
+      <button class="tab active" data-tab="planting">Planting Guide</button>
+      <button class="tab" data-tab="doctor">Plant Doctor</button>
+      <button class="tab" data-tab="garden">My Garden</button>
+    </nav>
+
+    <section id="planting" class="panel active">
+      <div class="section-heading">
+        <div><p class="eyebrow">Crop library</p><h2>What are you growing?</h2></div>
+        <input id="searchInput" type="search" placeholder="Search vegetables..." />
+      </div>
+      <div id="cropGrid" class="crop-grid"></div>
+    </section>
+
+    <section id="doctor" class="panel">
+      <div class="doctor-card">
+        <div class="camera">📷</div>
+        <p class="eyebrow">Plant Doctor</p>
+        <h2>Photograph a plant problem</h2>
+        <p>Take or choose a clear photo of the affected leaves, stem or fruit. This first version prepares the photo workflow; image diagnosis will be connected next.</p>
+        <label class="primary upload">Choose photo<input id="plantPhoto" type="file" accept="image/*" capture="environment" /></label>
+        <img id="preview" alt="Selected plant" hidden />
+        <p id="photoStatus" class="status"></p>
+      </div>
+    </section>
+
+    <section id="garden" class="panel">
+      <div class="section-heading"><div><p class="eyebrow">Saved crops</p><h2>My Garden</h2></div></div>
+      <div id="savedGarden" class="crop-grid"></div>
+      <p id="emptyGarden" class="empty">Tap “Add to my garden” on a crop to save it here.</p>
+    </section>
+  </main>
+
+  <dialog id="cropDialog">
+    <button id="closeDialog" class="close" aria-label="Close">×</button>
+    <div id="cropDetails"></div>
+  </dialog>
+
+  <footer>GardenGuide Australia · Local advice should always be checked against current weather and local biosecurity guidance.</footer>
+  <script src="app.js"></script>
+</body>
+</html>
