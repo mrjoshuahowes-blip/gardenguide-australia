@@ -1,0 +1,20 @@
+[
+ {"name":"Tomato","category":"Fruit vegetable","depth":"5 mm","spacing":"40–60 cm","harvest":"10–14 weeks","sun":"Full sun","water":"Regular, consistent","companions":["Basil","Lettuce","Carrot"]},
+ {"name":"Carrot","category":"Root","depth":"5 mm","spacing":"3–5 cm","harvest":"10–16 weeks","sun":"Full sun","water":"Even moisture","companions":["Peas","Lettuce","Onion"]},
+ {"name":"Lettuce","category":"Leaf","depth":"3 mm","spacing":"20–30 cm","harvest":"6–10 weeks","sun":"Sun / part shade","water":"Frequent light watering","companions":["Carrot","Radish","Beetroot"]},
+ {"name":"Potato","category":"Tuber","depth":"10–15 cm","spacing":"30–40 cm","harvest":"12–20 weeks","sun":"Full sun","water":"Deep regular watering","companions":["Beans","Corn"]},
+ {"name":"Pumpkin","category":"Fruit vegetable","depth":"2–3 cm","spacing":"1–2 m","harvest":"16–20 weeks","sun":"Full sun","water":"Deep watering","companions":["Corn","Beans"]},
+ {"name":"Beans","category":"Legume","depth":"2–3 cm","spacing":"10–15 cm","harvest":"8–12 weeks","sun":"Full sun","water":"Moderate","companions":["Carrot","Corn","Cucumber"]},
+ {"name":"Peas","category":"Legume","depth":"2–4 cm","spacing":"5–10 cm","harvest":"10–14 weeks","sun":"Full sun","water":"Moderate","companions":["Carrot","Radish"]},
+ {"name":"Beetroot","category":"Root","depth":"1–2 cm","spacing":"8–12 cm","harvest":"8–12 weeks","sun":"Full sun","water":"Even moisture","companions":["Lettuce","Onion"]},
+ {"name":"Zucchini","category":"Fruit vegetable","depth":"2 cm","spacing":"70–100 cm","harvest":"7–10 weeks","sun":"Full sun","water":"Deep regular watering","companions":["Beans","Corn"]},
+ {"name":"Corn","category":"Grain","depth":"2–4 cm","spacing":"25–30 cm","harvest":"12–16 weeks","sun":"Full sun","water":"Regular","companions":["Beans","Pumpkin"]},
+ {"name":"Onion","category":"Allium","depth":"5–10 mm","spacing":"8–12 cm","harvest":"20–30 weeks","sun":"Full sun","water":"Moderate","companions":["Carrot","Beetroot"]},
+ {"name":"Broccoli","category":"Brassica","depth":"5 mm","spacing":"40–50 cm","harvest":"12–18 weeks","sun":"Full sun","water":"Regular","companions":["Lettuce","Beetroot"]},
+ {"name":"Cucumber","category":"Fruit vegetable","depth":"1–2 cm","spacing":"40–60 cm","harvest":"8–12 weeks","sun":"Full sun","water":"Consistent","companions":["Beans","Corn","Radish"]},
+ {"name":"Capsicum","category":"Fruit vegetable","depth":"5 mm","spacing":"40–50 cm","harvest":"12–18 weeks","sun":"Full sun","water":"Consistent","companions":["Basil","Onion"]},
+ {"name":"Radish","category":"Root","depth":"1 cm","spacing":"3–5 cm","harvest":"4–7 weeks","sun":"Sun / part shade","water":"Even moisture","companions":["Carrot","Lettuce","Peas"]},
+ {"name":"Spinach","category":"Leaf","depth":"1 cm","spacing":"10–20 cm","harvest":"6–10 weeks","sun":"Sun / part shade","water":"Regular","companions":["Peas","Radish"]},
+ {"name":"Garlic","category":"Allium","depth":"3–5 cm","spacing":"10–15 cm","harvest":"7–9 months","sun":"Full sun","water":"Moderate","companions":["Beetroot","Lettuce"]},
+ {"name":"Watermelon","category":"Fruit","depth":"2–3 cm","spacing":"1–1.5 m","harvest":"12–18 weeks","sun":"Full sun","water":"Deep watering","companions":["Corn","Radish"]}
+]
